@@ -39,7 +39,7 @@ export default function Complaint() {
     event.preventDefault();
     // setIsUploading(true);
     const response = await fetch(
-      `http://localhost:3000/api/v1/complaint/postComplaint/${localStorage.getItem(
+      `https://sevasetu.onrender.com/api/v1/complaint/postComplaint/${localStorage.getItem(
         "currentUser"
       )}`,
       {

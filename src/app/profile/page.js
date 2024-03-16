@@ -16,7 +16,7 @@ export default function Profile() {
     event.preventDefault();
     // setCurrentValue(false);
     const response = await fetch(
-      "https://errornf.onrender.com/api/v1/users/logout",
+      "https://sevasetu.onrender.com/api/v1/users/logout",
       {
         method: "POST",
         credentials: "include",

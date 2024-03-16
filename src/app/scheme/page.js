@@ -7,9 +7,12 @@ export default function Scheme() {
   const [data, setData] = useState([]);
 
   const fetchInfo = async () => {
-    const res = await fetch("http://localhost:3000/api/v1/schemes/getScheme", {
-      credentials: "include",
-    });
+    const res = await fetch(
+      "https://sevasetu.onrender.com/api/v1/schemes/getScheme",
+      {
+        credentials: "include",
+      }
+    );
     const d = await res.json();
     return setData(d.data);
   };

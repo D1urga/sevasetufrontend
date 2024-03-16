@@ -8,7 +8,7 @@ export default function WomenEmp() {
 
   const fetchInfo = async () => {
     const res = await fetch(
-      "http://localhost:3000/api/v1/womenEmp/getWomenEmp",
+      "https://sevasetu.onrender.com/api/v1/womenEmp/getWomenEmp",
       {
         credentials: "include",
       }

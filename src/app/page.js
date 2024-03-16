@@ -41,7 +41,7 @@ export default function Home() {
     event.preventDefault();
     // setIsUploading(true);
     const response = await fetch(
-      "http://localhost:3000/api/v1/users/register",
+      "https://sevasetu.onrender.com/api/v1/users/register",
       {
         method: "POST",
         credentials: "include",
@@ -58,7 +58,7 @@ export default function Home() {
     event.preventDefault();
     setCurrentValue(false);
     const response = await fetch(
-      "https://errornf.onrender.com/api/v1/users/login",
+      "https://sevasetu.onrender.com/api/v1/users/login",
       {
         method: "POST",
         credentials: "include",

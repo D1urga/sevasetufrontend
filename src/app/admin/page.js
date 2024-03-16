@@ -30,7 +30,7 @@ export default function Admin() {
     event.preventDefault();
     // setIsUploading(true);
     const response = await fetch(
-      "http://localhost:3000/api/v1/schemes/postScheme",
+      "https://sevasetu.onrender.com/api/v1/schemes/postScheme",
       {
         method: "POST",
         credentials: "include",
@@ -47,7 +47,7 @@ export default function Admin() {
     event.preventDefault();
     // setIsUploading(true);
     const response = await fetch(
-      "http://localhost:3000/api/v1/womenEmp/postWomenEmp",
+      "https://sevasetu.onrender.com/api/v1/womenEmp/postWomenEmp",
       {
         method: "POST",
         credentials: "include",
