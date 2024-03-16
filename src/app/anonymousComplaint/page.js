@@ -33,13 +33,7 @@ export default function AnonymouComplaint() {
     // setIsUploading(false);
     // const data = await response.json();
   };
-  return (
-    <div className={styles.main}>
-      <form onSubmit={handleSubmit}>
-        <div className={styles.outer_div}>
-          <p className={styles.p1}>Anonymous Complaint</p>
-          <p className={styles.p2}>
-            Determining the exact number of girls who do not report complaints
+  const value = ` Determining the exact number of girls who do not report complaints
             in India can be challenging due to various factors, including
             underreporting, lack of comprehensive data collection, and the
             sensitive nature of the issues involved. However, studies and
@@ -58,8 +52,13 @@ export default function AnonymouComplaint() {
             involving girls and women in India goes unreported. Efforts to
             address this issue include awareness campaigns, legal reforms,
             strengthening support services for survivors, and promoting a
-            culture of accountability and gender equality.
-          </p>
+            culture of accountability and gender equality.`;
+  return (
+    <div className={styles.main}>
+      <form onSubmit={handleSubmit}>
+        <div className={styles.outer_div}>
+          <p className={styles.p1}>Anonymous Complaint</p>
+          <p className={styles.p2}>{value}</p>
 
           <p className={styles.p3}>Feel free to complaint</p>
           <input

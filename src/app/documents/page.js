@@ -44,9 +44,9 @@ export default function Documents() {
         <div className={styles.div1}>
           <p className={styles.p1}>How to update address ?</p>
           <p className={styles.p2}>
-            Select Address Update: Once logged in, look for the "Address Update"
-            section. There might be an option for "Update Aadhaar" or "Update
-            Demographics Data" - choose the one ...
+            Select Address Update: Once logged in, look for the Address Update
+            section. There might be an option for Update Aadhaar or Update
+            Demographics Data - choose the one ...
           </p>
         </div>
         <div className={styles.div1}>
