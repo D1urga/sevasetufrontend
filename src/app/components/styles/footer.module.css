@@ -1,6 +1,6 @@
 @media screen and (min-width: 900px) {
   .main_div {
-    margin-top: 200px;
+    margin-top: 30px;
   }
   .intro2 {
     display: flex;
@@ -66,7 +66,7 @@
 }
 @media screen and (max-width: 900px) and (min-width: 520px) {
   .main_div {
-    margin-top: 200px;
+    margin-top: 30px;
   }
   .intro2 {
     display: flex;
@@ -134,7 +134,7 @@
 }
 @media screen and (max-width: 520px) {
   .main_div {
-    margin-top: 200px;
+    margin-top: 30px;
   }
   .intro2 {
     display: flex;

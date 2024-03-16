@@ -1,0 +1,339 @@
+@media screen and (min-width: 900px) {
+  .main {
+    margin-top: 6rem;
+  }
+  .outer_div {
+    display: flex;
+  }
+  .div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: #ffffff;
+    padding: 40px 0;
+    padding-left: 10vw;
+  }
+  .div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 50%;
+    padding: 40px 0;
+    padding-left: 5vw;
+    background-color: #ffffff;
+  }
+
+  .div1 p {
+    padding: 20px 5vw;
+    line-height: 1.8;
+    word-spacing: 3px;
+    text-align: center;
+  }
+  .div2 p {
+    font-size: 13px;
+    padding: 10px 0;
+  }
+  .icon {
+    font-size: 140px;
+    color: rgb(189, 189, 189);
+  }
+  .input,
+  .input:focus {
+    outline: none;
+    height: 50px;
+    width: 30vw;
+    border: none;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    padding: 0 10px;
+  }
+  .input2,
+  .input2:focus {
+    outline: none;
+    height: 50px;
+    width: 60vw;
+    border: none;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 20px 0;
+  }
+
+  .input1,
+  .input1:focus {
+    resize: none;
+    outline: none;
+    height: 200px;
+    width: 30vw;
+    border: none;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .input3,
+  .input3:focus {
+    resize: none;
+    outline: none;
+    height: 200px;
+    width: 60vw;
+    border: none;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0;
+  }
+  .btn {
+    border: none;
+    background-color: #67b0b6;
+    padding: 10px 40px;
+    margin: 10px 0;
+    border-radius: 20px;
+    color: white;
+  }
+  .outer_div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .women_empowerment {
+    padding: 20px 0;
+  }
+  .women_empowerment p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 520px) {
+  .main {
+    margin-top: 6rem;
+  }
+  .outer_div {
+    display: flex;
+    flex-direction: column;
+  }
+  .div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 40px 0;
+  }
+  .div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    padding: 20px 0;
+
+    background-color: #ffffff;
+  }
+
+  .div1 p {
+    padding: 20px 5vw;
+    line-height: 1.8;
+    word-spacing: 3px;
+    text-align: center;
+  }
+  .div2 p {
+    font-size: 13px;
+    padding: 10px 0;
+  }
+  .icon {
+    font-size: 140px;
+    color: rgb(189, 189, 189);
+  }
+  .input,
+  .input:focus {
+    outline: none;
+    height: 50px;
+    width: 90vw;
+    border: none;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    padding: 0 10px;
+  }
+  .input1,
+  .input1:focus {
+    resize: none;
+    outline: none;
+    height: 200px;
+    width: 90vw;
+    border: none;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .btn {
+    border: none;
+    background-color: #67b0b6;
+    padding: 10px 90px;
+    margin: 10px 0;
+    border-radius: 20px;
+    color: white;
+  }
+  .btn_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .outer_div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .women_empowerment {
+    padding: 20px 0;
+  }
+  .women_empowerment p {
+    font-size: 13px;
+  }
+  .input2,
+  .input2:focus {
+    outline: none;
+    height: 50px;
+    width: 90vw;
+    border: none;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 20px 0;
+  }
+  .btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .input3,
+  .input3:focus {
+    resize: none;
+    outline: none;
+    height: 200px;
+    width: 90vw;
+    border: none;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0;
+  }
+}
+@media screen and (max-width: 520px) {
+  .main {
+    margin-top: 4rem;
+  }
+  .outer_div {
+    display: flex;
+    flex-direction: column;
+  }
+  .div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 40px 0;
+  }
+  .div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    padding: 20px 0;
+
+    background-color: #ffffff;
+  }
+
+  .div1 p {
+    padding: 20px 5vw;
+    line-height: 1.8;
+    word-spacing: 3px;
+    text-align: center;
+  }
+  .div2 p {
+    font-size: 13px;
+    padding: 10px 0;
+  }
+  .icon {
+    font-size: 140px;
+    color: rgb(189, 189, 189);
+  }
+  .input,
+  .input:focus {
+    outline: none;
+    height: 50px;
+    width: 90vw;
+    border: none;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    padding: 0 10px;
+  }
+  .input1,
+  .input1:focus {
+    resize: none;
+    outline: none;
+    height: 200px;
+    width: 90vw;
+    border: none;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .btn {
+    border: none;
+    background-color: #67b0b6;
+    padding: 10px 90px;
+    margin: 10px 0;
+    border-radius: 20px;
+    color: white;
+  }
+  .btn_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .outer_div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .women_empowerment {
+    padding: 20px 0;
+  }
+  .women_empowerment p {
+    font-size: 13px;
+  }
+  .input2,
+  .input2:focus {
+    outline: none;
+    height: 50px;
+    width: 90vw;
+    border: none;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 20px 0;
+  }
+  .btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .input3,
+  .input3:focus {
+    resize: none;
+    outline: none;
+    height: 200px;
+    width: 90vw;
+    border: none;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0;
+  }
+}

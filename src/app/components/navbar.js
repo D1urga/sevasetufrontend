@@ -60,23 +60,35 @@ export default function Navbar() {
         <li>
           <Link href="/landingPage">Home</Link>
         </li>
+
         <li>
-          <Link href="/reciever">Documents</Link>
+          <Link href="/documents">Documents</Link>
         </li>
         {/* <li>
           <Link href="">donate</Link>
         </li> */}
         <li>
-          <Link href="./indivisualDonation">Scheme</Link>
+          <Link href="./scheme">Scheme</Link>
         </li>
         <li>
-          <Link href="./aboutUs">Complaints</Link>
+          <Link href="./complaint">Complaints</Link>
+        </li>
+        <li>
+          <Link href="./anonymousComplaint">Anonymous-Complaints</Link>
+        </li>
+        <li>
+          <Link href="./admin">Admin</Link>
         </li>
       </ul>
 
       <div className={styles.profile}>
         <FaUserCircle className={styles.profile_icon} />
-        <p>profile</p>
+        <Link
+          href="/profile"
+          style={{ color: "white", fontSize: "13px", margin: "0 10px" }}
+        >
+          profile
+        </Link>
       </div>
     </div>
   );

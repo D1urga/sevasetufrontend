@@ -1,0 +1,304 @@
+@media screen and (min-width: 900px) {
+  .main {
+    margin-top: 6rem;
+  }
+  .mainpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255);
+    height: max-content;
+    width: max-content;
+    border-radius: 16px;
+    box-shadow: rgb(172, 172, 172) 0px 0px 6px 0px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+  }
+  .card {
+    height: max-content;
+    width: max-content;
+    padding: 32px;
+  }
+
+  .card_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .emblem {
+    height: 44px;
+  }
+
+  .icon {
+    height: 44px;
+    margin-left: 88px;
+  }
+
+  .card_body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  .card_body p {
+    font-size: 15px;
+  }
+
+  .aadhaar_no {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .aadhaar_no h2 {
+    font-size: 19px;
+    font-weight: 400;
+  }
+
+  .card_footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 0px;
+  }
+  .card_footer p {
+    font-size: 15px;
+  }
+
+  .profile_pic {
+    height: 120px;
+    width: 140px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 12px;
+  }
+
+  .qr {
+    height: 120px;
+    margin-left: 24px;
+  }
+  .faq_maindiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .div1 {
+    width: 80vw;
+    box-shadow: rgb(172, 172, 172) 0px 0px 6px 0px;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  .p1 {
+    color: blue;
+  }
+  .p2 {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 520px) {
+  .main {
+    margin-top: 5rem;
+  }
+  .mainpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255);
+    height: max-content;
+    width: max-content;
+    border-radius: 16px;
+    box-shadow: rgb(172, 172, 172) 0px 0px 6px 0px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+  }
+  .card {
+    height: max-content;
+    width: max-content;
+    padding: 32px;
+  }
+
+  .card_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .emblem {
+    height: 44px;
+  }
+
+  .icon {
+    height: 44px;
+    margin-left: 88px;
+  }
+
+  .card_body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  .card_body p {
+    font-size: 15px;
+  }
+
+  .aadhaar_no {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .aadhaar_no h2 {
+    font-size: 19px;
+    font-weight: 400;
+  }
+
+  .card_footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 0px;
+  }
+  .card_footer p {
+    font-size: 15px;
+  }
+
+  .profile_pic {
+    height: 120px;
+    width: 140px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 12px;
+  }
+
+  .qr {
+    height: 120px;
+    margin-left: 24px;
+  }
+  .faq_maindiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .div1 {
+    width: 90vw;
+    box-shadow: rgb(172, 172, 172) 0px 0px 6px 0px;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  .p1 {
+    color: blue;
+  }
+  .p2 {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 520px) {
+  .main {
+    margin-top: 5rem;
+  }
+  .mainpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 3px;
+    background-color: rgb(255, 255, 255);
+    height: max-content;
+    width: max-content;
+    border-radius: 16px;
+    box-shadow: rgb(172, 172, 172) 0px 0px 6px 0px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+  }
+  .card {
+    height: max-content;
+    width: max-content;
+    padding: 32px;
+  }
+
+  .card_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .emblem {
+    height: 44px;
+  }
+
+  .icon {
+    height: 44px;
+    margin-left: 88px;
+  }
+
+  .card_body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  .card_body p {
+    font-size: 15px;
+  }
+
+  .aadhaar_no {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .aadhaar_no h2 {
+    font-size: 19px;
+    font-weight: 400;
+  }
+
+  .card_footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 0px;
+  }
+  .card_footer p {
+    font-size: 15px;
+  }
+
+  .profile_pic {
+    height: 120px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 12px;
+  }
+
+  .qr {
+    height: 70px;
+    width: 70px;
+  }
+  .faq_maindiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .div1 {
+    width: 90vw;
+    box-shadow: rgb(172, 172, 172) 0px 0px 6px 0px;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  .p1 {
+    color: blue;
+  }
+  .p2 {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+}

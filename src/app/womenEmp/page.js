@@ -1,0 +1,58 @@
+"use client";
+import React, { useState, useEffect } from "react";
+import styles from "./womenemp.module.css";
+import { FaSearch } from "react-icons/fa";
+
+export default function WomenEmp() {
+  const [data, setData] = useState([]);
+
+  const fetchInfo = async () => {
+    const res = await fetch(
+      "http://localhost:3000/api/v1/womenEmp/getWomenEmp",
+      {
+        credentials: "include",
+      }
+    );
+    const d = await res.json();
+    return setData(d.data);
+  };
+  useEffect(() => {
+    fetchInfo();
+  }, []);
+  return (
+    <div className={styles.main}>
+      <div className={styles.outer_div}>
+        {/* <div className={styles.options}>
+          <p className={styles.p4}>
+            please choose general or jobs for category filtering
+          </p>
+          <div>
+            <button className={styles.btn1}>general</button>
+            <button className={styles.btn2}>Jobs</button>
+          </div>
+        </div> */}
+        {/* <div className={styles.search_bar}>
+          <input
+            className={styles.input}
+            placeholder="please search here ..."
+          ></input>
+          <FaSearch className={styles.search_icon} />
+        </div> */}
+        <div className={styles.schemes}>
+          {data &&
+            data.map((data, index) => (
+              <div key={index} className={styles.card}>
+                <p className={styles.p1}>{data.title}</p>
+
+                <p className={styles.p3}>{data.description}</p>
+                <div className={styles.comment}>
+                  <button className={styles.btn3}>visit</button>
+                  {/* <button className={styles.btn4}>share</button> */}
+                </div>
+              </div>
+            ))}
+        </div>
+      </div>
+    </div>
+  );
+}
