@@ -60,7 +60,7 @@ export default function Navbar() {
         <li>
           <Link
             onClick={() => {
-              setIsNavbarOpen(!isNavbarOpen);
+              setIsNavbarOpen(false);
             }}
             href="/landingPage"
           >
@@ -71,7 +71,7 @@ export default function Navbar() {
         <li>
           <Link
             onClick={() => {
-              setIsNavbarOpen(!isNavbarOpen);
+              setIsNavbarOpen(false);
             }}
             href="/documents"
           >
@@ -84,7 +84,7 @@ export default function Navbar() {
         <li>
           <Link
             onClick={() => {
-              setIsNavbarOpen(!isNavbarOpen);
+              setIsNavbarOpen(false);
             }}
             href="./scheme"
           >
@@ -94,7 +94,7 @@ export default function Navbar() {
         <li>
           <Link
             onClick={() => {
-              setIsNavbarOpen(!isNavbarOpen);
+              setIsNavbarOpen(false);
             }}
             href="./complaint"
           >
@@ -104,7 +104,7 @@ export default function Navbar() {
         <li>
           <Link
             onClick={() => {
-              setIsNavbarOpen(!isNavbarOpen);
+              setIsNavbarOpen(false);
             }}
             href="./anonymousComplaint"
           >
@@ -114,7 +114,7 @@ export default function Navbar() {
         <li>
           <Link
             onClick={() => {
-              setIsNavbarOpen(!isNavbarOpen);
+              setIsNavbarOpen(false);
             }}
             href="./admin"
           >
