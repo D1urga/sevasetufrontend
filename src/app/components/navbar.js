@@ -58,68 +58,26 @@ export default function Navbar() {
       </div>
       <ul className={isNavbarOpen ? styles.list1 : styles.list}>
         <li>
-          <Link
-            onClick={() => {
-              setIsNavbarOpen(false);
-            }}
-            href="/landingPage"
-          >
-            Home
-          </Link>
+          <Link href="/landingPage">Home</Link>
         </li>
 
         <li>
-          <Link
-            onClick={() => {
-              setIsNavbarOpen(false);
-            }}
-            href="/documents"
-          >
-            Documents
-          </Link>
+          <Link href="/documents">Documents</Link>
         </li>
         {/* <li>
           <Link href="">donate</Link>
         </li> */}
         <li>
-          <Link
-            onClick={() => {
-              setIsNavbarOpen(false);
-            }}
-            href="./scheme"
-          >
-            Scheme
-          </Link>
+          <Link href="./scheme">Scheme</Link>
         </li>
         <li>
-          <Link
-            onClick={() => {
-              setIsNavbarOpen(false);
-            }}
-            href="./complaint"
-          >
-            Complaints
-          </Link>
+          <Link href="./complaint">Complaints</Link>
         </li>
         <li>
-          <Link
-            onClick={() => {
-              setIsNavbarOpen(false);
-            }}
-            href="./anonymousComplaint"
-          >
-            Anonymous-Complaints
-          </Link>
+          <Link href="./anonymousComplaint">Anonymous-Complaints</Link>
         </li>
         <li>
-          <Link
-            onClick={() => {
-              setIsNavbarOpen(false);
-            }}
-            href="./admin"
-          >
-            Admin
-          </Link>
+          <Link href="./admin">Admin</Link>
         </li>
       </ul>
 
